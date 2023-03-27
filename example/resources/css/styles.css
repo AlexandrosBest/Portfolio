@@ -1,0 +1,87 @@
+/* Global Settings */
+.glyphicon {
+    font-size: 8rem;
+  }
+  
+  .sect-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  /* Navigation Styles */
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  /* Jumbotron Styles */
+  .jumbotron {
+    margin-bottom: 0;
+  }
+  
+  /* Skills Styles */
+  .skills {
+    margin-bottom: 10px;
+  }
+  
+  .skills h4 {
+    font-weight: normal;
+  }
+  
+  .skills .row div {
+    margin-bottom: 30px;
+  }
+  
+  /* Project Styles */
+  .card-inverse {
+    background-color: white;
+    border-color: white;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    background-color: #eee;
+    padding-bottom: 30px;
+  }
+  
+  .projects img {
+    border-radius: 6px 6px 0 0;
+    opacity: 0.9;
+    border: 1px solid #eee;
+  }
+  
+  .projects img:hover {
+    opacity: 1;
+  }
+  
+  .img-mobile {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .img-mobile {
+      display: block;
+    }
+  
+    .img-desktop {
+      display: none;
+    }
+  }
+  
+  /* Contact Styles */
+  .contact {
+    margin-bottom: 20px;
+  }
+  
+  .contact span {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  footer.text-center p {
+    margin: 0;
+    padding: 20px 0;
+  }
