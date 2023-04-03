@@ -96,12 +96,10 @@ img {
 }
 
 .card {
-    background-color: lightgray;
-    border-color: lightgray;
-    color: #333;
     padding: 0.5rem;
     border-radius: 8px;
     margin-bottom: 20px;
+    
 }
 
 
