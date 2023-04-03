@@ -109,6 +109,8 @@ img {
 
 .center {
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .contact-grid {
@@ -119,4 +121,8 @@ img {
 
 .contact-card {
     display: grid;
+}
+
+.contact-size {
+    width: 15%;
 }
