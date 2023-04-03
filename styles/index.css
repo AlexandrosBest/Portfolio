@@ -90,20 +90,55 @@ nav {
     display: flex;
 }
 
-img {
+.portrait {
     max-width: 400px;
 
 }
 
+.container-card {
+    display: flex;
+}
+
 .card {
+    display: flex;
+    width: 100%;
+    height: auto;
     padding: 0.5rem;
     border-radius: 8px;
     margin-bottom: 20px;
+    border: 1px solid #eee;
+    border-radius: 6px 6px 0 0;
     
 }
 
 
 
+.collum-card-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+.collum-card-right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 5%;
+    justify-content: center;
+}
+
+.project-heading {
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.collum-text {
+   margin: 0;
+   padding-bottom: 50px;
+   font-size: 18px;
+    
+}
 
 .center {
     text-align: center;
@@ -123,4 +158,31 @@ img {
 
 .contact-size {
     width: 15%;
+}
+
+
+.landing-page {
+    border-radius: 40px;
+    border-width: 1px;
+    border-color: #327da7;
+    border-style: solid;
+    background: #ffffff;
+    color: #327da7;
+    max-width: 30%;
+    padding: 15px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-flex-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-flex-right {
+    display: flex;
+    flex-direction: column;
 }
