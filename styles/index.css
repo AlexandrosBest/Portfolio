@@ -92,11 +92,17 @@ nav {
 
 .portrait {
     max-width: 400px;
-
 }
 
+.project-heading {
+    text-align: center;
+    padding-top: 32px;
+}
 .container-card {
     display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px lightgray;
 }
 
 .card {
@@ -162,14 +168,23 @@ nav {
 
 
 .landing-page {
-    border-radius: 40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #327da7;
+    border-style: solid;
     border-width: 1px;
     border-color: #327da7;
-    border-style: solid;
-    background: #ffffff;
-    color: #327da7;
-    max-width: 30%;
-    padding: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .container-button {
@@ -180,6 +195,11 @@ nav {
 .button-flex-left {
     display: flex;
     flex-direction: column;
+}
+
+.button-text {
+    text-align: center;
+    margin: 20px;
 }
 
 .button-flex-right {
