@@ -45,11 +45,15 @@ body {
     margin: 0;
     padding-top: 60px;
 }
+#about-me {
+    color: #c7893e;
+    border-bottom: 5px solid #c7893e;
+}
 
 nav {
     display: flex;
     align-items: center;
-    margin: auto;
+    padding-left: 280px;
 }
 
 .navigation-items {
@@ -99,7 +103,9 @@ nav {
 
 .project-heading {
     text-align: center;
-    padding-top: 32px;
+    margin: 0px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .container-card {
@@ -145,11 +151,6 @@ nav {
     justify-content: center;
 }
 
-.project-heading {
-    margin: 0px;
-    margin-bottom: 16px;
-}
-
 .collum-text {
    margin: 0;
    padding-bottom: 50px;
@@ -175,7 +176,7 @@ nav {
 }
 
 .contact-size {
-    width: 15%;
+    width: 13%;
 }
 
 
