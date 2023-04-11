@@ -214,9 +214,18 @@ nav {
 
 }
 
+.landing-page:hover {
+    background-color: #327da7;
+    color: white;
+}
+
 .container-button {
     display: flex;
     justify-content: space-between;
+}
+
+.card:hover {
+    background: #e7e7e7;
 }
 
 .button-flex-left {
