@@ -53,6 +53,21 @@ body {
     border-bottom: 5px solid #c7893e;
 }
 
+#home:hover {
+    color: #c7893e;
+    border-bottom: 5px solid #c7893e;
+}
+
+#blog:hover {
+    color: #c7893e;
+    border-bottom: 5px solid #c7893e;
+}
+
+#book-reviews:hover {
+    color: #c7893e;
+    border-bottom: 5px solid #c7893e;
+}
+
 nav {
     display: flex;
     align-items: center;
