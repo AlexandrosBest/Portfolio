@@ -310,7 +310,11 @@ footer {
     background-color: rgba(247, 247, 247, 0.973);
 }
 
-/* Skills section */    
+/* Skills section */
+
+#laravel-icon {
+    width: 6rem;
+}
 
 .skills-header{
     text-align: center;
