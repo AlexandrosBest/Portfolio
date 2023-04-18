@@ -1,57 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
 
-html,
-body {
-    height: 100%;
-    font-family: "Open Sans", sans-serif;
-    margin: 0;
-    font-weight: 500;
-}
-
-.acumin-heading {
-    font-family: acumin-pro, sans-serif !important;
-    font-size: 40px !important;
-    line-height: 56px !important;
-    font-weight: 600 !important;
-    margin-top: 60px;
-    padding: 0 32px;
-}
-
-
-header {
-    z-index: 1000000;
-    background-color: black;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    align-items: center;
-    top: 0;
-    left: 0;
-    color: white;
-    margin-bottom: 40px;
-}
-
-h2 {
-    font-family: "Proza Libre", sans-serif;
-}
-
-#logo {
-    text-align: center;
-}
-
-.logo {
-    background-color: black;
-}
-
-body {
-    color: black;
-    margin: 0;
-    padding-top: 60px;
-}
-#about-me {
-    color: #c7893e;
-    border-bottom: 5px solid #c7893e;
-}
+/* Navigation Bar */
 
 #home:hover {
     color: #c7893e;
@@ -68,11 +17,6 @@ body {
     border-bottom: 5px solid #c7893e;
 }
 
-nav {
-    display: flex;
-    align-items: center;   
-}
-
 .navigation-items {
     background-color: black;
     display: flex;
@@ -82,6 +26,11 @@ nav {
     margin: 0;
     margin-left: auto;
     margin: 12px;
+}
+/* Section 1 - about me + Skills */
+
+.section-1 {
+    background-color: rgba(247, 247, 247, 0.973);
 }
 
 .body_container {
@@ -93,8 +42,17 @@ nav {
     flex-direction: column;
 }
 
-.section-1 {
-    background-color: rgba(247, 247, 247, 0.973);
+.acumin-heading {
+    font-family: acumin-pro, sans-serif !important;
+    font-size: 40px !important;
+    line-height: 56px !important;
+    font-weight: 600 !important;
+    margin-top: 60px;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
 }
 
 .col_left {
@@ -108,13 +66,20 @@ nav {
     margin: 0 0 22px 0;
 }
 
+#about-me {
+    color: #c7893e;
+    border-bottom: 5px solid #c7893e;
+}
+
 .col_right {
     display: flex;
     flex-direction: column;
 }
 
-.flex {
-    display: flex;
+.portrait {
+    max-width: 400px;
+    height: auto;
+    padding: 0 22px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -122,11 +87,44 @@ nav {
         display: none;
     }
 }
-.portrait {
-    max-width: 400px;
-    height: auto;
-    padding: 0 22px;
+/* Skills Section  */
+
+/* Section 2 - Project Section */
+
+/* Section 3 - Contact Section */
+
+
+
+
+
+
+
+
+
+#logo {
+    text-align: center;
 }
+
+.logo {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .project-heading {
     text-align: center;

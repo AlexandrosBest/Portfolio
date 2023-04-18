@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    font-weight: 500;
+}
+
+header {
+    z-index: 1000000;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    left: 0;
+    color: white;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Proza Libre", sans-serif;
+}
+
+body {
+    color: black;
+    margin: 0;
+    padding-top: 60px;
+}
