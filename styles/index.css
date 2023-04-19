@@ -128,7 +128,7 @@
 
 .skills-box:hover > .skills-title: after, 
 .skills-box:hover > .skills-title: before{
-width: 30px;
+    width: 30px;
 }
 
 .skills-box:hover .skills-img{
@@ -255,8 +255,7 @@ width: 30px;
 .collum-text {
    margin: 0;
    padding-bottom: 60px;
-   font-size: 18px;
-    
+   font-size: 18px;  
 }
 
 .container-button {
@@ -293,7 +292,6 @@ width: 30px;
     border-radius: 40px;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .landing-page:hover {
@@ -343,8 +341,7 @@ width: 30px;
     align-items:center;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
-    position: relative;
-    
+    position: relative;   
 }
 
 .contact-size {
@@ -360,44 +357,58 @@ width: 30px;
 }
 
 @media screen and (max-width:990px){
-.skills-container{
+    .skills-container{
         grid-tempLate-columns: repeat(2, 1fr);
         padding: 2rem 50px;
     }
 }
     
 @media screen and (max-width:650px){
-.skills-container{
+    .skills-container{
         grid-tempLate-columns:2fr;
         padding: 2rem 50px;
     }
 
-.container-button{
+    .container-button{
         display: grid;
         grid-tempLate-columns:2fr;
         padding: 2rem 50px;
     }
 
-.button-flex-left {
+    .button-flex-left {
         padding-bottom: 22px;
     }
 
-.contact-grid{
+    .contact-grid{
         grid-tempLate-columns:2fr;
         padding: 2rem 50px;
     }
-.container-card{
+    .container-card{
         display: block;
     }
 
-.container-card-last{
+    .container-card-last{
         display: block;
     }
 
-.contact-grid{
+    .contact-grid{
         grid-tempLate-columns:2fr;
         padding: 2rem 50px;
-    }        
+    }
+
+    .collum-card-left {
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    .collum-card-right {
+        margin: auto;
+        padding-left: 0;
+    }
+
+    .collum-card-right {
+        text-align: center;
+    }
 }
 
 
