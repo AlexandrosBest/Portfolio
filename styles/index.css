@@ -27,6 +27,7 @@
     margin-left: auto;
     margin: 12px;
 }
+
 /* Section 1 - about me + Skills */
 
 .section-1 {
@@ -82,232 +83,6 @@
     padding: 0 22px;
 }
 
-@media only screen and (max-width: 600px) {
-    .portrait {
-        display: none;
-    }
-}
-/* Skills Section  */
-
-/* Section 2 - Project Section */
-
-/* Section 3 - Contact Section */
-
-
-
-
-
-
-
-
-
-#logo {
-    text-align: center;
-}
-
-.logo {
-    background-color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.project-heading {
-    text-align: center;
-    margin: 0px;
-    padding-top: 40px;
-    padding-bottom: 8px;
-    position: relative;
-}
-
-.project-heading::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 130px;
-    height: 4px;
-    background-color: #327da7;
-    border-radius: 2px;
-}
-
-.project-padding {
-    padding-bottom: 40px;
-    margin-top: 0;
-}
-
-.project-title {
-    text-align: center;
-    margin: 0px;
-    margin-bottom: 2rem;
-}
-
-.container-card {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: solid 1px lightgray;
-}
-
-.container-card-last {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-
-.card {
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding: 0.5rem;
-    border-radius: 8px;
-    margin: auto;
-    border: 1px solid #eee;
-    border-radius: 6px 6px 0 0;
-}
-
-.collum-card-left {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-}
-
-.collum-card-right {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    padding-left: 7%;
-    justify-content: space-between;
-
-}
-
-.collum-text {
-   margin: 0;
-   padding-bottom: 60px;
-   font-size: 18px;
-    
-}
-
-.contact-heading {
-    position: relative;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    margin-bottom: 40px;
-}
-
-.contact-heading::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 130px;
-    height: 4px;
-    background-color: #327da7;
-    border-radius: 2px;
-}
-
-.contact-padding {
-    padding-bottom: 8px;
-}
-
-.contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    text-align: center;
-    padding-bottom: 30px;
-    max-width: 1300px;
-    margin: auto;
-}
-
-.contact-card {
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    position: relative;
-    
-}
-
-.contact-size {
-    width: 4rem;
-}
-
-
-.landing-page {
-    font-size: 18px;
-    font-weight: bold;
-    background: #fff;
-    width: 160px;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #327da7;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #327da7;
-    border-radius: 40px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-}
-
-.landing-page:hover {
-    background-color: #327da7;
-    color: white;
-}
-
-.container-button {
-    display: grid;
-    grid-tempLate-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items:center;
-    text-align: center;
-}
-
-.card:hover {
-    background: #e7e7e7;
-}
-
-.button-flex-left {
-    display: flex;
-    flex-direction: column;
-}
-
-.button-text {
-    text-align: center;
-    margin: 20px;
-}
-
-.button-flex-right {
-    display: flex;
-    flex-direction: column;
-}
-
-footer {
-    background-color: rgba(247, 247, 247, 0.973);
-}
-
 /* Skills section */
 
 #laravel-icon {
@@ -346,13 +121,16 @@ footer {
     padding: 2rem 80px;
     font-size: 1.2rem;
  }
+
 .skills-box{
     color: #000;
 }
+
 .skills-box:hover > .skills-title: after, 
 .skills-box:hover > .skills-title: before{
 width: 30px;
 }
+
 .skills-box:hover .skills-img{
     transform: translateX(-20px);
 }
@@ -393,10 +171,194 @@ width: 30px;
     background: rgba(100, 100, 100, 0.5);
     border-radius: 45px 0 0 45px;
 }
+
 .skills-title h3{
     color: #333;
     margin-top: 0.5rem;
 }
+
+/* Section 2 - Project Section */
+
+.project-padding {
+    padding-bottom: 40px;
+    margin-top: 0;
+}
+
+.project-heading {
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.project-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 4px;
+    background-color: #327da7;
+    border-radius: 2px;
+}
+
+.container-card {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: solid 1px lightgray;
+}
+
+.container-card-last {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.collum-card-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin: auto;
+    border: 1px solid #eee;
+    border-radius: 6px 6px 0 0;
+}
+
+.card:hover {
+    background: #e7e7e7;
+}
+
+.collum-card-right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 7%;
+    justify-content: space-between;
+}
+
+.project-title {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 2rem;
+}
+
+.collum-text {
+   margin: 0;
+   padding-bottom: 60px;
+   font-size: 18px;
+    
+}
+
+.container-button {
+    display: grid;
+    grid-tempLate-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.button-flex-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-flex-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-page {
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #327da7;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #327da7;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.landing-page:hover {
+    background-color: #327da7;
+    color: white;
+}
+
+/* Section 3 - Contact Section */
+
+.contact-padding {
+    padding-bottom: 8px;
+}
+
+.contact-heading {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 4px;
+    background-color: #327da7;
+    border-radius: 2px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.contact-card {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    
+}
+
+.contact-size {
+    width: 4rem;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+    .portrait {
+        display: none;
+    }
+}
+
 @media screen and (max-width:990px){
 .skills-container{
         grid-tempLate-columns: repeat(2, 1fr);

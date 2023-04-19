@@ -28,3 +28,7 @@ body {
     margin: 0;
     padding-top: 60px;
 }
+
+footer {
+    background-color: rgba(247, 247, 247, 0.973);
+}
