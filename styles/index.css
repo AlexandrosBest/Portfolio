@@ -19,13 +19,36 @@
 
 .navigation-items {
     background-color: black;
+    color: #fff;
     display: flex;
     list-style-type: none;
-    padding: 0;
     align-items: center;
     margin: 0;
-    margin-left: auto;
-    margin: 12px;
+    padding: 0;
+    margin-right: 1em;
+}
+
+header {
+    z-index: 1000000;
+    background-color: #000000;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav {
+    visibility: visible;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0
 }
 
 /* Section 1 - about me + Skills */
@@ -44,10 +67,8 @@
 }
 
 .nav_container {
-    margin: 0;
-    padding: 0;
     width: 1300px;
-    margin:  auto;
+    margin:  0 auto;
 }
 
 .acumin-heading {
