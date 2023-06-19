@@ -43,6 +43,13 @@
     flex-direction: column;
 }
 
+.nav_container {
+    margin: 0;
+    padding: 0;
+    width: 1300px;
+    margin:  auto;
+}
+
 .acumin-heading {
     font-family: acumin-pro, sans-serif !important;
     font-size: 40px !important;
