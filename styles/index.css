@@ -76,8 +76,8 @@ nav {
     font-size: 40px !important;
     line-height: 56px !important;
     font-weight: 600 !important;
-    margin-top: 60px;
-    padding: 0 32px;
+    padding: 0px 22px;
+    padding-top: 2em;
 }
 
 .flex {
